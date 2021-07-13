@@ -1,0 +1,42 @@
+.container {
+    height: calc(100vh - 50px);
+    position: relative;
+    overflow: auto;
+}
+.visible {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+.ellipsis{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+// 右浮
+.float-r {
+    float: right;
+}
+
+// 左浮
+.float-l {
+    float: left;
+}
+
+/*清除浮动*/
+.clearfix:after{
+    content:" ";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+    overflow:hidden;
+}
