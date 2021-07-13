@@ -1,4 +1,4 @@
-# nuxt-h5
+# nuxt-h5  一个nuxt.js+vant+移动端适配的h5架构
 
 ## Build Setup
 
